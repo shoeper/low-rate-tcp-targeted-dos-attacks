@@ -1,3 +1,4 @@
 #!/bin/bash
 
-sudo rm -f *.txt results/*.txt *.png
+sudo rm -f *.txt *.png
+sudo rm -rf results-*/
