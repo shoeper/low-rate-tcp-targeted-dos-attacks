@@ -17,7 +17,7 @@ This is a reproduction of [Low-Rate TCP-Targeted Denial of Service Attacks](http
 2.  In your GCE instance, execute the following:
 
     ```bash
-    curl "https://cs.stanford.edu/people/rpropper/cs244/setup.sh" | /bin/bash
+    curl "https://raw.githubusercontent.com/shoeper/low-rate-tcp-targeted-dos-attacks/master/setup.sh" | /bin/bash
     ```
 
     This script will install Python dependencies (e.g. matplotlib), check out
