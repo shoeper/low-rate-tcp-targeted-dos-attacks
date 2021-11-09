@@ -8,3 +8,4 @@ killall -q ovs-vswitchd
 killall -q ovsdb-server
 killall -q controller
 mn -c
+service openvswitch-switch start
