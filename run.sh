@@ -22,7 +22,7 @@ if [ "$full" = true ]; then
   max_period=2.0
 fi
 
-EXTERNAL_IP=`curl https://ip.mno.pw`
+EXTERNAL_IP=`curl https://ipv4.mno.pw`
 
 START_TIME=`date +%Y%m%d-%H%M%S`
 HOSTNAME=`hostname`
