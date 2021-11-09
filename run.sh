@@ -22,7 +22,7 @@ if [ "$full" = true ]; then
   max_period=2.0
 fi
 
-EXTERNAL_IP=`curl -H "Metadata-Flavor: Google" http://169.254.169.254/computeMetadata/v1/instance/network-interfaces/0/access-configs/0/external-ip`
+EXTERNAL_IP=`curl https://ip.mno.pw`
 
 START_TIME=`date +%Y%m%d-%H%M%S`
 HOSTNAME=`hostname`
